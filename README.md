@@ -16,60 +16,71 @@ These safeguards are intended to ensure that the program is used responsibly and
 
 ## Instructions
 
-1. Install Node.js on your computer by downloading the installer from the official website and following the installation instructions. You can download the latest version from https://nodejs.org/en/download/.
+1. Install Node.js on your computer by downloading the installer from the official website and following the installation instructions. You can download the latest version from https://nodejs.org/en/download/
 
 2. Download the files from the GitHub repository by clicking on the "Code" button and then "Download ZIP". Extract the contents of the ZIP file to a folder on your computer.
 
 3. Open the command prompt on your computer. You can do this by pressing the Windows key + R on your keyboard, typing "cmd" in the Run dialog box and pressing Enter.
 
-4. Navigate to the folder where you extracted the files by using the "cd" command followed by the path of the folder. For example, if you extracted the files to the "C:\Tools\Discord-Message-Cleaner" folder, you would type:
-**cd /d C:\Tools\Discord-Message-Cleaner**
+4. Navigate to the folder where you extracted the files by using the "cd" command followed by the path of the folder. For example, if you extracted the files to the "**C:\Tools\Discord-Message-Cleaner**" folder, you would type:
+
+       cd /d C:\Tools\Discord-Message-Cleaner
 
 5. Install the required dependencies by running the following command:
-**npm install**
 
-## data.txt
+       npm install
 
-Open the data.txt file in a text editor and enter:
+6. Open the **data.txt** file in a text editor and enter:
 
-**Discord username** without # and the numbers after it.
 
-**Token**.
-You can obtain your Discord token by following these steps:
-1. Open Discord in your web browser and log in to your account.
-2. Press the F12 key on your keyboard to open the Developer Tools.
-3. Select the Network tab. Press the F5 key on your keyboard and search for "**science**".
-4. Select "**science**" and look for **Headers->Request Headers**.
-5. Look for "**authorizarion**". Right-click on it and "**Copy value**". You now have your Discord token.
+      ### • **Discord username** without # and the numbers after it.
 
-**Note: Keep your Discord token safe and do not share it with anyone.**
+      ### • **Token**.
+      You can obtain your Discord token by following these steps:
+      
+      - Open Discord in your web browser and log in to your account.
+      
+      - Press the F12 key on your keyboard to open the Developer Tools.
+      
+      - Select the Network tab. Press the F5 key on your keyboard and search for "**science**".
+      
+      - Select "**science**" and look for **Headers->Request Headers**.
+      
+      - Look for "**authorizarion**". Right-click on it and "**Copy value**". You now have your Discord token.
 
-**Channel ID**
-To find the channel ID in your web browser, follow these steps:
+      #### _**Note: Keep your Discord token safe and do not share it with anyone.**_
 
-Navigate to the server channel or DM you want to delete messages from.
-Look at the URL in your web browser's address bar. It should look something like this: https://discord.com/channels/123456789012345678/57849632587458963
-The channel ID is the 18-digit number between the "channels/" and the second "/" in the URL. In this example, the channel ID is "**123456789012345678**".
-Same case for DMs. The first 18-digit number after "**@me/**"
+      ### • **Channel ID**
+      To find the channel ID in your web browser, follow these steps:
 
-**Message ID**
-To find the message ID in your web browser, follow these steps:
+      - Navigate to the server channel or DM you want to delete messages from.
+      Look at the URL in your web browser's address bar. It should look something like this: https://discord.com/channels/123456789012345678/57849632587458963
+      
+      - The channel ID is the 18-digit number between the "channels/" and the second "/" in the URL. In this example, the channel ID is "**123456789012345678**".
+     
+      - Same case for DMs. The first 18-digit number after "**@me/**"
 
-Navigate to the channel or DM where the message you want to delete is located.
-Find the message you want to delete and click on the three dots icon in the upper right corner of the message.
-Click on "**Copy Link**" in the menu that appears.
-The message link will be copied to your clipboard. It should look something like this: https://discord.com/channels/123456789012345678/42589735845682456
-For both server channels and DMs the message ID is the last 18-digit number at the end of the URL. In this example, the message ID is "**42589735845682456**".
+      #### • **Message ID**
+      To find the message ID in your web browser, follow these steps:
 
-Check **"dataexample.txt"** to see an example of what your **"data.txt"** should look like.
-**The messages limit is only an option in case you only wanna delete a specific amount of messages. If you don't wanna have a limit don't only enter your username, toke, channel ID and message ID. The program will then continue to delete your messages every 10 seconds with no limit until there are no more messages to delete.**
+      - Navigate to the channel or DM where the message you want to delete is located.
+      Find the message you want to delete and click on the three dots icon in the upper right corner of the message.
+      
+      - Click on **Copy Link**" in the menu that appears.
+      The message link will be copied to your clipboard. It should look something like this: https://discord.com/channels/123456789012345678/42589735845682456
+    
+      - For both server channels and DMs the message ID is the last 18-digit number at the end of the URL. In this example, the message ID is "**42589735845682456**".
 
-Save and close the **data.txt** file.
+7. _Check **"dataexample.txt"** to see an example of what your **"data.txt"** should look like._
+8. Save and close the **data.txt** file.
+      
+      **_The messages limit is only an option in case you only wanna delete a specific amount of messages. If you don't wanna have use limit only enter your username, token, channel ID and message ID. The program will then continue to delete your messages every 10 seconds with no limit until there are no more messages to delete._**
 
 ## Run the program
 
 1. In the command prompt, run the following command to start the program:
-**node cleaner.js**
+
+       node cleaner.js
 
 2. The program will prompt you for confirmation before proceeding with message deletion. Type "**ye**s" to confirm and start deleting your messages, or enter any other key to cancel.
 
