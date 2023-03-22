@@ -14,17 +14,24 @@ This program is designed with several safeguards in place to minimize the risk o
 
 These safeguards are intended to ensure that the program is used responsibly and with the understanding that its primary purpose is educational.
 
-**Instructions**
+## Instructions
 
-*Install Node.js on your computer by downloading the installer from the official website and following the installation instructions. You can download the latest version from https://nodejs.org/en/download/.
+**Install Node.js on your computer by downloading the installer from the official website and following the installation instructions. You can download the latest version from https://nodejs.org/en/download/.
 
 Download the files from the GitHub repository by clicking on the "Code" button and then "Download ZIP". Extract the contents of the ZIP file to a folder on your computer.
 
-*Open the command prompt on your computer. You can do this by pressing the Windows key + R on your keyboard, typing "cmd" in the Run dialog box and pressing Enter.
+**Open the command prompt on your computer. You can do this by pressing the Windows key + R on your keyboard, typing "cmd" in the Run dialog box and pressing Enter.
 
 Navigate to the folder where you extracted the files by using the "cd" command followed by the path of the folder. For example, if you extracted the files to the "C:\Tools\Discord-Message-Cleaner" folder, you would type:
 cd /d C:\Tools\Discord-Message-Cleaner
 
-*Install the required dependencies by running the following command:
+**Install the required dependencies by running the following command:
 npm install
 
+**Open the data.txt file in a text editor and enter:
+Discord username without # and the numbers after it
+
+Token. You can obtain your Discord token by following these steps:
+a. Open Discord in your web browser and log in to your account.
+b. Press the F12 key on your keyboard to open the Developer Tools.
+c. 
