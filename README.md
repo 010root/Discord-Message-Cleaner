@@ -47,7 +47,7 @@ e. Look for "authorizarion". Right-click on it and "Copy value". You now have yo
 To find the channel ID in your web browser, follow these steps:
 
 Navigate to the server channel or DM you want to delete messages from.
-Look at the URL in your web browser's address bar. It should look something like this: https://discord.com/channels/123456789012345678/098765432101234567
+Look at the URL in your web browser's address bar. It should look something like this: https://discord.com/channels/123456789012345678/57849632587458963
 The channel ID is the 18-digit number between the "channels/" and the second "/" in the URL. In this example, the channel ID is "123456789012345678".
 Same case for DMs. The first 18-digit number after "@me/"
 
@@ -59,4 +59,16 @@ Find the message you want to delete and click on the three dots icon in the uppe
 Click on "Copy Link" in the menu that appears.
 The message link will be copied to your clipboard. It should look something like this: https://discord.com/channels/123456789012345678/42589735845682456
 For both server channels and DMs the message ID is the last 18-digit number at the end of the URL. In this example, the message ID is "42589735845682456".
+
+Check **"dataexample.txt"** to see an example of what your **"data.txt"** should look like.
+**The messages limit is only an option in case you only wanna delete a specific amount of messages. If you don't wanna have a limit don't only enter your username, toke, channel ID and message ID. The program will then continue to delete your messages every 10 seconds with no limit until there are no more messages to delete.**
+
+7. Save and close the data.txt file.
+
+8. In the command prompt, run the following command to start the program:
+node cleaner.js
+
+9. The program will prompt you for confirmation before proceeding with message deletion. Type "yes" to confirm and start deleting your messages, or enter any other key to cancel.
+
+10. The program will run in the background and delete your messages according to the specified criteria. You can monitor its progress by checking the log.txt file in the same folder as the program.
 
