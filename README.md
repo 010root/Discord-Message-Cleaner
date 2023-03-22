@@ -30,14 +30,14 @@ npm install
 
 6. Open the data.txt file in a text editor and enter:
 
-**Discord username** without # and the numbers after it
+**Discord username** without # and the numbers after it.
 
 **Token**. You can obtain your Discord token by following these steps
 Open Discord in your web browser and log in to your account.
-Press the F12 key on your keyboard to open the Developer Tools.
-Select the Network tab. Press the F5 key on your keyboard and search for "science".
-Select "science" and look for Headers->Request Headers.
-Look for "authorizarion". Right-click on it and "Copy value". You now have your Discord token.
+*Press the F12 key on your keyboard to open the Developer Tools.
+*Select the Network tab. Press the F5 key on your keyboard and search for "science".
+*Select "science" and look for Headers->Request Headers.
+*Look for "authorizarion". Right-click on it and "Copy value". You now have your Discord token.
 **Note: Keep your Discord token safe and do not share it with anyone.**
 
 7. 
