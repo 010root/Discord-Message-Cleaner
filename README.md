@@ -8,8 +8,23 @@ This project is for educational purposes only and is not intended for use in vio
 PS
 This program is designed with several safeguards in place to minimize the risk of violating Discord's TOS:
 
-1. The program can only be used on an account owned by the person running the program.
-2. The program can only delete messages sent by the specified username, meaning it won't affect and cannot delete other users' messages.
+1. The program can only be used on an account you specifically own.
+2. The program can only delete messages sent by your account, meaning it won't affect and cannot delete other users' messages.
 3. The program includes a coded delay of 10 seconds between each message deletion, ensuring that only one message can be deleted every 10 seconds to avoid API rate limits.
 
 These safeguards are intended to ensure that the program is used responsibly and with the understanding that its primary purpose is educational.
+
+##Instructions
+
+*Install Node.js on your computer by downloading the installer from the official website and following the installation instructions. You can download the latest version from https://nodejs.org/en/download/.
+
+Download the files from the GitHub repository by clicking on the "Code" button and then "Download ZIP". Extract the contents of the ZIP file to a folder on your computer.
+
+*Open the command prompt on your computer. You can do this by pressing the Windows key + R on your keyboard, typing "cmd" in the Run dialog box and pressing Enter.
+
+Navigate to the folder where you extracted the files by using the "cd" command followed by the path of the folder. For example, if you extracted the files to the "C:\Tools\Discord-Message-Cleaner" folder, you would type:
+cd /d C:\Tools\Discord-Message-Cleaner
+
+*Install the required dependencies by running the following command:
+npm install
+
