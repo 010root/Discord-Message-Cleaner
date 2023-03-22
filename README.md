@@ -30,11 +30,11 @@ npm install
 
 ## data.txt
 
-1. Open the data.txt file in a text editor and enter:
+Open the data.txt file in a text editor and enter:
 
-2. **Discord username** without # and the numbers after it.
+**Discord username** without # and the numbers after it.
 
-3. **Token**.
+**Token**.
 You can obtain your Discord token by following these steps:
 1. Open Discord in your web browser and log in to your account.
 2. Press the F12 key on your keyboard to open the Developer Tools.
