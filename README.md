@@ -28,18 +28,19 @@ cd /d C:\Tools\Discord-Message-Cleaner
 5. Install the required dependencies by running the following command:
 npm install
 
-6. Open the data.txt file in a text editor and enter:
+## data.txt
 
-**Discord username** without # and the numbers after it.
+1. Open the data.txt file in a text editor and enter:
 
-**Token**.
+2. **Discord username** without # and the numbers after it.
+
+3. **Token**.
 You can obtain your Discord token by following these steps:
-
-a. Open Discord in your web browser and log in to your account.
-b. Press the F12 key on your keyboard to open the Developer Tools.
-c. Select the Network tab. Press the F5 key on your keyboard and search for "science".
-d. Select "science" and look for Headers->Request Headers.
-e. Look for "authorizarion". Right-click on it and "Copy value". You now have your Discord token.
+1. Open Discord in your web browser and log in to your account.
+2. Press the F12 key on your keyboard to open the Developer Tools.
+3. Select the Network tab. Press the F5 key on your keyboard and search for "science".
+4. Select "science" and look for Headers->Request Headers.
+5. Look for "authorizarion". Right-click on it and "Copy value". You now have your Discord token.
 
 **Note: Keep your Discord token safe and do not share it with anyone.**
 
