@@ -29,6 +29,7 @@ cd /d C:\Tools\Discord-Message-Cleaner
 npm install
 
 6. Open the data.txt file in a text editor and enter:
+
 **Discord username** without # and the numbers after it
 
 **Token**. You can obtain your Discord token by following these steps:
