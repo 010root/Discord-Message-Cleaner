@@ -14,7 +14,7 @@ This program is designed with several safeguards in place to minimize the risk o
 
 These safeguards are intended to ensure that the program is used responsibly and with the understanding that its primary purpose is educational.
 
-##Instructions
+**Instructions**
 
 *Install Node.js on your computer by downloading the installer from the official website and following the installation instructions. You can download the latest version from https://nodejs.org/en/download/.
 
