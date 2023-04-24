@@ -1,5 +1,4 @@
-YourUsernameHere
 YourTokenHere
 ChannelIDhere
-YourMessageIDhere
+OptinalMessageIDhere
 OptionalMessageLimit
