@@ -32,9 +32,6 @@ These safeguards are intended to ensure that the program is used responsibly and
 
 6. Open the **data.txt** file in a text editor and enter:
 
-
-      ### • **Discord username** without # and the numbers after it.
-
       ### • **Token**.
       You can obtain your Discord token by following these steps:
       
@@ -61,7 +58,7 @@ These safeguards are intended to ensure that the program is used responsibly and
       - Same case for DMs. The first 18-digit number after "**@me/**"
 
       #### • **Message ID**
-      To find the message ID in your web browser, follow these steps:
+      It is an optinal setting. If your last message is not nearly top of the chat, write it manualy. To find the message ID in your web browser, follow these steps:
 
       - Navigate to the channel or DM where the message you want to delete is located.
       Find the message you want to delete and click on the three dots icon in the upper right corner of the message.
@@ -82,7 +79,7 @@ These safeguards are intended to ensure that the program is used responsibly and
 
        node cleaner.js
 
-2. The program will prompt you for confirmation before proceeding with message deletion. Type "**ye**s" to confirm and start deleting your messages, or enter any other key to cancel.
+2. The program will prompt you for confirmation before proceeding with message deletion. Type "**yes**" to confirm and start deleting your messages, or enter any other key to cancel.
 
 3. The program will run in the background and delete your messages according to the specified criteria. You can monitor its progress by checking the **log.txt** file in the same folder as the program.
 
