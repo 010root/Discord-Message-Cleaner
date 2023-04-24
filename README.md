@@ -58,7 +58,7 @@ These safeguards are intended to ensure that the program is used responsibly and
       - Same case for DMs. The first 18-digit number after "**@me/**"
 
       #### • **Message ID**
-      It is an optinal setting. If your last message is not nearly top of the chat, write it manualy. To find the message ID in your web browser, follow these steps:
+      It is an optional setting. If your last message is not nearly top of the chat, write it manualy. To find the message ID in your web browser, follow these steps:
 
       - Navigate to the channel or DM where the message you want to delete is located.
       Find the message you want to delete and click on the three dots icon in the upper right corner of the message.
