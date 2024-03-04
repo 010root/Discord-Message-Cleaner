@@ -1,0 +1,5 @@
+YourUsernameHere
+YourTokenHere
+ChannelIDhere
+YourMessageIDhere
+OptionalMessageLimit
